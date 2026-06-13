@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spam Detection</title>
+</head>
+<body>
+
+    <h2>📧 Phishing Email Detector</h2>
+
+    <form method="POST" action="/predict">
+        <textarea name="email" placeholder="Enter email text"></textarea>
+        <br><br>
+        <button type="submit">Check</button>
+    </form>
+
+    <h3>{{ prediction }}</h3>
+
+</body>
+</html>
